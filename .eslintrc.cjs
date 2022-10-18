@@ -18,7 +18,9 @@ module.exports = {
     "plugins": [
         "react"
     ],
+    "ignorePatterns": [".eslintrc.cjs"],
     "rules": {
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off"
     }
 }
